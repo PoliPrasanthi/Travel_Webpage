@@ -84,6 +84,7 @@ article{
   display: flex;
   overflow-x: auto;
   gap: 60px;
+  height: 300px;
   scroll-behavior: smooth;
   padding-bottom: 10px;
 }
@@ -222,3 +223,4 @@ article{
   color: #aaa;
   border-top: 1px solid #444;
 }
+
