@@ -94,8 +94,8 @@ article{
 }
 
 .flip-card {
-  width: 300px;
   height: 180px;
+  width: 180px;
   perspective: 1000px;
   flex-shrink: 0;
 }
@@ -223,4 +223,5 @@ article{
   color: #aaa;
   border-top: 1px solid #444;
 }
+
 
