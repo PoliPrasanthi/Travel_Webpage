@@ -1,0 +1,223 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+h1{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:visited{
+    color: white;
+}
+button{
+    background-color: brown;
+    color: white;
+    border: 2px solid;
+    border-radius: 20px;
+}
+.mainnav{
+     height: 400px;
+    width: 100%;
+    background-image:url(./sunset.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.h1{
+    font-size: 50px;
+}
+.h2{
+    font-size: 30px;
+}
+.p1{
+    font-size: 10px;
+}
+article{
+    margin-left: 200px;
+}
+.h3{
+    font-size:30px;
+}
+.places{
+    text-align: center;
+}
+.b1{
+    background-color: white;
+    color: black;
+    border: 2px solid;
+    border-radius: 20px;
+}
+.grid{
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    justify-content:center;
+    align-items: center;
+    gap: 10px;
+}
+.pl{
+    margin: 70px;
+    height: 400px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.p3{
+    text-align: left;
+}
+
+.image-scroll-section {
+  padding: 20px;
+  background-color: white;
+}
+
+.scroll-container {
+  display: flex;
+  overflow-x: auto;
+  gap: 60px;
+  scroll-behavior: smooth;
+  padding-bottom: 10px;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+.flip-card {
+  width: 300px;
+  height: 180px;
+  perspective: 1000px;
+  flex-shrink: 0;
+}
+
+.flip-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.7s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-front, .flip-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  backface-visibility: hidden;
+  overflow: hidden;
+}
+
+.flip-front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.flip-back {
+  background-color: #333;
+  color: #fff;
+  transform: rotateY(180deg);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.flip-back h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.flip-back p {
+  font-size: 14px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.flip-back a {
+  margin-top: 10px;
+  padding: 8px 14px;
+  background-color: #ff9800;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.flip-back a:hover {
+  background-color: orange;
+}
+.footer {
+  background-color: #0b0c10;
+  color: #ffffff;
+  padding: 20px 15px 5px; /* reduced vertical padding */
+  margin-top: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.footer-about,
+.footer-links,
+.footer-contact {
+  flex: 1 1 220px;
+  margin: 10px 15px;
+}
+
+.footer h3,
+.footer h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #00adb5;
+}
+
+.footer p,
+.footer a {
+  color: #d1d1d1;
+  font-size: 13px;
+  line-height: 1.4;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin-bottom: 6px;
+}
+
+.footer-bottom {
+  text-align: center;
+  padding-top: 10px;
+  font-size: 12px;
+  color: #aaa;
+  border-top: 1px solid #444;
+}
